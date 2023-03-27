@@ -2,26 +2,8 @@
     {
         "mass": 1,
         "omega": 1,
-        "delta_t": 0.01,
-        "N": 100
-    },
-    {
-        "mass": 1,
-        "omega": 1,
         "delta_t": 0.025,
         "N": 40
-    },
-    {
-        "mass": 1,
-        "omega": 1,
-        "delta_t": 0.03,
-        "N": 34
-    },
-    {
-        "mass": 1,
-        "omega": 1,
-        "delta_t": 0.04,
-        "N": 26
     },
     {
         "mass": 1,
@@ -56,13 +38,7 @@
     {
         "mass": 1,
         "omega": 1,
-        "delta_t": 0.12,
-        "N": 8
-    },
-    {
-        "mass": 1,
-        "omega": 1,
-        "delta_t": 0.14,
+        "delta_t": 0.125,
         "N": 8
     },
     {
@@ -74,26 +50,8 @@
     {
         "mass": 1,
         "omega": 1,
-        "delta_t": 0.01,
-        "N": 200
-    },
-    {
-        "mass": 1,
-        "omega": 1,
         "delta_t": 0.025,
         "N": 80
-    },
-    {
-        "mass": 1,
-        "omega": 1,
-        "delta_t": 0.03,
-        "N": 68
-    },
-    {
-        "mass": 1,
-        "omega": 1,
-        "delta_t": 0.04,
-        "N": 50
     },
     {
         "mass": 1,
@@ -128,14 +86,8 @@
     {
         "mass": 1,
         "omega": 1,
-        "delta_t": 0.12,
-        "N": 18
-    },
-    {
-        "mass": 1,
-        "omega": 1,
-        "delta_t": 0.14,
-        "N": 14
+        "delta_t": 0.125,
+        "N": 16
     },
     {
         "mass": 1,
@@ -146,26 +98,8 @@
     {
         "mass": 1,
         "omega": 1,
-        "delta_t": 0.01,
-        "N": 300
-    },
-    {
-        "mass": 1,
-        "omega": 1,
         "delta_t": 0.025,
         "N": 120
-    },
-    {
-        "mass": 1,
-        "omega": 1,
-        "delta_t": 0.03,
-        "N": 100
-    },
-    {
-        "mass": 1,
-        "omega": 1,
-        "delta_t": 0.04,
-        "N": 76
     },
     {
         "mass": 1,
@@ -200,14 +134,8 @@
     {
         "mass": 1,
         "omega": 1,
-        "delta_t": 0.12,
-        "N": 26
-    },
-    {
-        "mass": 1,
-        "omega": 1,
-        "delta_t": 0.14,
-        "N": 22
+        "delta_t": 0.125,
+        "N": 24
     },
     {
         "mass": 1,
@@ -218,26 +146,8 @@
     {
         "mass": 1,
         "omega": 1,
-        "delta_t": 0.01,
-        "N": 400
-    },
-    {
-        "mass": 1,
-        "omega": 1,
         "delta_t": 0.025,
         "N": 160
-    },
-    {
-        "mass": 1,
-        "omega": 1,
-        "delta_t": 0.03,
-        "N": 134
-    },
-    {
-        "mass": 1,
-        "omega": 1,
-        "delta_t": 0.04,
-        "N": 100
     },
     {
         "mass": 1,
@@ -272,163 +182,13 @@
     {
         "mass": 1,
         "omega": 1,
-        "delta_t": 0.12,
-        "N": 34
-    },
-    {
-        "mass": 1,
-        "omega": 1,
-        "delta_t": 0.14,
-        "N": 30
+        "delta_t": 0.125,
+        "N": 32
     },
     {
         "mass": 1,
         "omega": 1,
         "delta_t": 0.15,
         "N": 28
-    },
-    {
-        "mass": 1,
-        "omega": 1,
-        "delta_t": 0.01,
-        "N": 500
-    },
-    {
-        "mass": 1,
-        "omega": 1,
-        "delta_t": 0.025,
-        "N": 200
-    },
-    {
-        "mass": 1,
-        "omega": 1,
-        "delta_t": 0.03,
-        "N": 168
-    },
-    {
-        "mass": 1,
-        "omega": 1,
-        "delta_t": 0.04,
-        "N": 126
-    },
-    {
-        "mass": 1,
-        "omega": 1,
-        "delta_t": 0.05,
-        "N": 100
-    },
-    {
-        "mass": 1,
-        "omega": 1,
-        "delta_t": 0.06,
-        "N": 84
-    },
-    {
-        "mass": 1,
-        "omega": 1,
-        "delta_t": 0.075,
-        "N": 68
-    },
-    {
-        "mass": 1,
-        "omega": 1,
-        "delta_t": 0.085,
-        "N": 60
-    },
-    {
-        "mass": 1,
-        "omega": 1,
-        "delta_t": 0.1,
-        "N": 50
-    },
-    {
-        "mass": 1,
-        "omega": 1,
-        "delta_t": 0.12,
-        "N": 42
-    },
-    {
-        "mass": 1,
-        "omega": 1,
-        "delta_t": 0.14,
-        "N": 36
-    },
-    {
-        "mass": 1,
-        "omega": 1,
-        "delta_t": 0.15,
-        "N": 34
-    },
-    {
-        "mass": 1,
-        "omega": 1,
-        "delta_t": 0.01,
-        "N": 600
-    },
-    {
-        "mass": 1,
-        "omega": 1,
-        "delta_t": 0.025,
-        "N": 240
-    },
-    {
-        "mass": 1,
-        "omega": 1,
-        "delta_t": 0.03,
-        "N": 200
-    },
-    {
-        "mass": 1,
-        "omega": 1,
-        "delta_t": 0.04,
-        "N": 150
-    },
-    {
-        "mass": 1,
-        "omega": 1,
-        "delta_t": 0.05,
-        "N": 120
-    },
-    {
-        "mass": 1,
-        "omega": 1,
-        "delta_t": 0.06,
-        "N": 100
-    },
-    {
-        "mass": 1,
-        "omega": 1,
-        "delta_t": 0.075,
-        "N": 80
-    },
-    {
-        "mass": 1,
-        "omega": 1,
-        "delta_t": 0.085,
-        "N": 72
-    },
-    {
-        "mass": 1,
-        "omega": 1,
-        "delta_t": 0.1,
-        "N": 60
-    },
-    {
-        "mass": 1,
-        "omega": 1,
-        "delta_t": 0.12,
-        "N": 50
-    },
-    {
-        "mass": 1,
-        "omega": 1,
-        "delta_t": 0.14,
-        "N": 44
-    },
-    {
-        "mass": 1,
-        "omega": 1,
-        "delta_t": 0.15,
-        "N": 40
     }
 ]

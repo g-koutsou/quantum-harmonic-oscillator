@@ -75,7 +75,7 @@ harmos = {}
 ensembles = {}
 for i,ens in enumerate(params):
     n = short_hash(ens)
-    fname = f"data/x-{n}.txt.npz"
+    fname = f"data/hmc/x-{n}.txt.npz"
     N = ens["N"]
     mass = ens["mass"]
     omega = ens["omega"]
@@ -114,7 +114,6 @@ fig.show()
 
 #%%
 tau_int = {}
-t_cut = 1_000
 fig = plt.figure(2, figsize=(3+2*NTs, 6))
 fig.clf()
 gs = mpl.gridspec.GridSpec(1, NTs, left=0.075, right=0.99, bottom=0.075, top=0.99)
@@ -124,6 +123,7 @@ for j,T in enumerate(Ts):
         T = ensembles[ens]["T"]
         delta_t = ensembles[ens]["alat"]
         y = Observable(harmos[ens].xsq()[n_therm:])
+        t_cut = y.meas.shape[0]//4
         rho = y.autocorr()[:t_cut]
         t = np.arange(t_cut)
         ax.plot(t, rho, color=colors[i], marker=".", ls="", ms=2, label=f"$T={T}$ $δt={delta_t}$")
@@ -165,7 +165,7 @@ fig.clf()
 ax = fig.add_axes([0.15, 0.15, 0.8, 0.8])
 xy = defaultdict(list)
 fits = dict()
-n_jk = 10
+n_jk = 1
 for j,T in enumerate(Ts):
     for i,ens in enumerate(ens_T(ensembles, T)):
         alat = ensembles[ens]["T"]/ensembles[ens]["N"]
@@ -176,7 +176,7 @@ for j,T in enumerate(Ts):
     m.set_label(f"T={T}")
     x,y = np.array(xy[T]).T
     fcn = lambda x,p: p[0] + p[1]*x + p[2]*x**2
-    xcut = 0.2
+    xcut = 1
     y = y[x <= xcut]
     x = x[x <= xcut]
     fits[T] = lsqfit.nonlinear_fit(data=(x,y), fcn=fcn, p0=(1,1,1))
@@ -200,7 +200,7 @@ fig = plt.figure(5, figsize=(6, 4))
 fig.clf()
 ax = fig.add_axes([0.15, 0.15, 0.8, 0.8])
 xy = list()
-n_jk = 10
+n_jk = 1
 for j,T in enumerate(Ts):
     for i,ens in enumerate(ens_T(ensembles, T)):
         alat = ensembles[ens]["T"]/ensembles[ens]["N"]
@@ -250,7 +250,7 @@ for j,T in enumerate(Ts):
 x,y = np.array(list(zip(*xy)))
 x = np.array(x, dtype=float)
 fcn = lambda x,p: p[0]+p[1]*np.exp(-p[2]/x)
-fits["inf"] = lsqfit.nonlinear_fit(data=(x,y), fcn=fcn, p0=(1,1,1))
+fits["inf"] = lsqfit.nonlinear_fit(data=(x,y), fcn=fcn, p0=(.1,.1,.1))
 x = np.linspace(0.001, 1)
 y = fcn(x, fits["inf"].p)
 ax.plot(x, gv.mean(y), ls="--", color=colors[0], label=r"$T\rightarrow\infty$ fit to separate continuum limits")
