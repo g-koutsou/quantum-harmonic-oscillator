@@ -2,8 +2,8 @@
     {
         "mass": 1,
         "omega": 1,
-        "delta_t": 0.025,
-        "N": 40
+        "delta_t": 0.04,
+        "N": 26
     },
     {
         "mass": 1,
@@ -26,7 +26,13 @@
     {
         "mass": 1,
         "omega": 1,
-        "delta_t": 0.085,
+        "delta_t": 0.08,
+        "N": 12
+    },
+    {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.09,
         "N": 12
     },
     {
@@ -38,20 +44,50 @@
     {
         "mass": 1,
         "omega": 1,
-        "delta_t": 0.125,
-        "N": 8
+        "delta_t": 0.04,
+        "N": 38
     },
     {
         "mass": 1,
         "omega": 1,
-        "delta_t": 0.15,
-        "N": 8
+        "delta_t": 0.05,
+        "N": 30
     },
     {
         "mass": 1,
         "omega": 1,
-        "delta_t": 0.025,
-        "N": 80
+        "delta_t": 0.06,
+        "N": 26
+    },
+    {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.075,
+        "N": 20
+    },
+    {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.08,
+        "N": 20
+    },
+    {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.09,
+        "N": 18
+    },
+    {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.1,
+        "N": 16
+    },
+    {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.04,
+        "N": 50
     },
     {
         "mass": 1,
@@ -74,8 +110,14 @@
     {
         "mass": 1,
         "omega": 1,
-        "delta_t": 0.085,
-        "N": 24
+        "delta_t": 0.08,
+        "N": 26
+    },
+    {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.09,
+        "N": 22
     },
     {
         "mass": 1,
@@ -86,20 +128,8 @@
     {
         "mass": 1,
         "omega": 1,
-        "delta_t": 0.125,
-        "N": 16
-    },
-    {
-        "mass": 1,
-        "omega": 1,
-        "delta_t": 0.15,
-        "N": 14
-    },
-    {
-        "mass": 1,
-        "omega": 1,
-        "delta_t": 0.025,
-        "N": 120
+        "delta_t": 0.04,
+        "N": 76
     },
     {
         "mass": 1,
@@ -122,8 +152,14 @@
     {
         "mass": 1,
         "omega": 1,
-        "delta_t": 0.085,
-        "N": 36
+        "delta_t": 0.08,
+        "N": 38
+    },
+    {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.09,
+        "N": 34
     },
     {
         "mass": 1,
@@ -134,61 +170,43 @@
     {
         "mass": 1,
         "omega": 1,
-        "delta_t": 0.125,
-        "N": 24
-    },
-    {
-        "mass": 1,
-        "omega": 1,
-        "delta_t": 0.15,
-        "N": 20
-    },
-    {
-        "mass": 1,
-        "omega": 1,
-        "delta_t": 0.025,
-        "N": 160
+        "delta_t": 0.04,
+        "N": 150
     },
     {
         "mass": 1,
         "omega": 1,
         "delta_t": 0.05,
-        "N": 80
+        "N": 120
     },
     {
         "mass": 1,
         "omega": 1,
         "delta_t": 0.06,
-        "N": 68
+        "N": 100
     },
     {
         "mass": 1,
         "omega": 1,
         "delta_t": 0.075,
-        "N": 54
+        "N": 80
     },
     {
         "mass": 1,
         "omega": 1,
-        "delta_t": 0.085,
-        "N": 48
+        "delta_t": 0.08,
+        "N": 76
+    },
+    {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.09,
+        "N": 68
     },
     {
         "mass": 1,
         "omega": 1,
         "delta_t": 0.1,
-        "N": 40
-    },
-    {
-        "mass": 1,
-        "omega": 1,
-        "delta_t": 0.125,
-        "N": 32
-    },
-    {
-        "mass": 1,
-        "omega": 1,
-        "delta_t": 0.15,
-        "N": 28
+        "N": 60
     }
 ]

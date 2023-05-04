@@ -1,3 +1,4 @@
+# %%
 from collections import defaultdict
 from matplotlib import pyplot as plt
 import matplotlib as mpl
@@ -84,13 +85,13 @@ for i,ens in enumerate(params):
     harmos[n] = HarmonicOscillator(mass, omega, T, alat, fname)
     ensembles[n] = {"alat": alat, "T": T, "N": N}
 
-def int_T(n):
-    return int(np.round(ensembles[n]["T"]))
+def rnd_T(n):
+    return np.round(ensembles[n]["T"]/.5)*.5
 
 def ens_T(ensembles, T):
-    return [n for n in ensembles if int_T(n) == T]
+    return [n for n in ensembles if rnd_T(n) == T]
 
-Ts = sorted(set([int_T(n) for n in ensembles]))
+Ts = sorted(set([rnd_T(n) for n in ensembles]))
 NTs = len(Ts)
 
 #%%
@@ -123,7 +124,7 @@ for j,T in enumerate(Ts):
         T = ensembles[ens]["T"]
         delta_t = ensembles[ens]["alat"]
         y = Observable(harmos[ens].xsq()[n_therm:])
-        t_cut = y.meas.shape[0]//4
+        t_cut = y.meas.shape[0]//100
         rho = y.autocorr()[:t_cut]
         t = np.arange(t_cut)
         ax.plot(t, rho, color=colors[i], marker=".", ls="", ms=2, label=f"$T={T}$ $δt={delta_t}$")
@@ -220,7 +221,7 @@ def fcn(x, prms):
 alat,L,y = zip(*xy)
 alat = np.array(alat)
 L = np.array(L)
-fits["comb"] = lsqfit.nonlinear_fit(data=((alat,L),y), fcn=fcn, p0=(1,1,1)*3)
+fits["comb"] = lsqfit.nonlinear_fit(data=((alat,L),y), fcn=fcn, p0=(.01,.01,.01)*3)
 print(f"T=all | χ2/d.o.f = {fits['comb'].chi2/fits['comb'].dof:3.2f}")
 for j,T in enumerate(Ts):
     x = np.linspace(0, 0.15)
@@ -250,7 +251,7 @@ for j,T in enumerate(Ts):
 x,y = np.array(list(zip(*xy)))
 x = np.array(x, dtype=float)
 fcn = lambda x,p: p[0]+p[1]*np.exp(-p[2]/x)
-fits["inf"] = lsqfit.nonlinear_fit(data=(x,y), fcn=fcn, p0=(.1,.1,.1))
+fits["inf"] = lsqfit.nonlinear_fit(data=(x,y), fcn=fcn, p0=(.1,.1,.01))
 x = np.linspace(0.001, 1)
 y = fcn(x, fits["inf"].p)
 ax.plot(x, gv.mean(y), ls="--", color=colors[0], label=r"$T\rightarrow\infty$ fit to separate continuum limits")

@@ -1,0 +1,560 @@
+{
+    "77a613a9e4": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.01,
+        "N": 100
+    },
+    "8580996e3e": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.025,
+        "N": 40
+    },
+    "ce13c8d4b6": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.03,
+        "N": 34
+    },
+    "672a362d2e": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.04,
+        "N": 26
+    },
+    "0b555772eb": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.05,
+        "N": 20
+    },
+    "24219e910c": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.06,
+        "N": 18
+    },
+    "f7a577247c": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.075,
+        "N": 14
+    },
+    "f9f07b9cd2": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.085,
+        "N": 12
+    },
+    "bc97651ab9": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.1,
+        "N": 10
+    },
+    "59db841664": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.12,
+        "N": 8
+    },
+    "5846047341": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.14,
+        "N": 8
+    },
+    "efc6cebdfb": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.15,
+        "N": 8
+    },
+    "e52208a107": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.01,
+        "N": 200
+    },
+    "2e7df260ef": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.025,
+        "N": 80
+    },
+    "bb7551b74a": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.03,
+        "N": 68
+    },
+    "2d8f0b4dad": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.04,
+        "N": 50
+    },
+    "4738b9b361": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.05,
+        "N": 40
+    },
+    "671b8fd6e9": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.06,
+        "N": 34
+    },
+    "7a91129c5c": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.075,
+        "N": 28
+    },
+    "5d651940bc": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.085,
+        "N": 24
+    },
+    "c427b20837": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.1,
+        "N": 20
+    },
+    "bc800e06e6": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.12,
+        "N": 18
+    },
+    "847042a2e3": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.14,
+        "N": 14
+    },
+    "86b68176d1": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.15,
+        "N": 14
+    },
+    "a284bd5f08": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.01,
+        "N": 300
+    },
+    "c9226d1208": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.025,
+        "N": 120
+    },
+    "4d3bf20147": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.03,
+        "N": 100
+    },
+    "e76cfb2c2d": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.04,
+        "N": 76
+    },
+    "1c3c091e43": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.05,
+        "N": 60
+    },
+    "7c74d86d8f": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.06,
+        "N": 50
+    },
+    "524c32c6d9": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.075,
+        "N": 40
+    },
+    "99953d6dde": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.085,
+        "N": 36
+    },
+    "1b879f388e": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.1,
+        "N": 30
+    },
+    "7264a44900": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.12,
+        "N": 26
+    },
+    "c47756045b": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.14,
+        "N": 22
+    },
+    "7d7a41a61a": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.15,
+        "N": 20
+    },
+    "3bf032d0e9": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.01,
+        "N": 400
+    },
+    "c86d225a1a": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.025,
+        "N": 160
+    },
+    "307a6df346": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.03,
+        "N": 134
+    },
+    "4156670975": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.04,
+        "N": 100
+    },
+    "3697178597": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.05,
+        "N": 80
+    },
+    "3bc113ae80": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.06,
+        "N": 68
+    },
+    "fb4e2e9b9d": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.075,
+        "N": 54
+    },
+    "62c3087219": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.085,
+        "N": 48
+    },
+    "387355dc62": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.1,
+        "N": 40
+    },
+    "858f456f10": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.12,
+        "N": 34
+    },
+    "b3d8d284f8": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.14,
+        "N": 30
+    },
+    "a4696492bc": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.15,
+        "N": 28
+    },
+    "5fb8557cbb": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.01,
+        "N": 500
+    },
+    "f9cfdc01f5": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.025,
+        "N": 200
+    },
+    "e206a0b89c": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.03,
+        "N": 168
+    },
+    "adf99becc2": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.04,
+        "N": 126
+    },
+    "1bfd992cff": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.05,
+        "N": 100
+    },
+    "16ba4f3cdd": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.06,
+        "N": 84
+    },
+    "c0c8f46243": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.075,
+        "N": 68
+    },
+    "c2d41c4bd2": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.085,
+        "N": 60
+    },
+    "e3e15d8120": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.1,
+        "N": 50
+    },
+    "b938481060": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.12,
+        "N": 42
+    },
+    "091f417f5b": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.14,
+        "N": 36
+    },
+    "f8ec648855": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.15,
+        "N": 34
+    },
+    "456905f3c8": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.01,
+        "N": 600
+    },
+    "ab784b6548": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.025,
+        "N": 240
+    },
+    "ebbf5d9e1c": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.03,
+        "N": 200
+    },
+    "104321a40c": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.04,
+        "N": 150
+    },
+    "84bb658c73": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.05,
+        "N": 120
+    },
+    "1c5ca0c848": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.06,
+        "N": 100
+    },
+    "3c3ed68896": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.075,
+        "N": 80
+    },
+    "fa35f33cfa": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.085,
+        "N": 72
+    },
+    "7a684c4a97": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.1,
+        "N": 60
+    },
+    "523c16d6fa": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.12,
+        "N": 50
+    },
+    "ad64bac826": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.14,
+        "N": 44
+    },
+    "d33a532914": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.15,
+        "N": 40
+    },
+    "27d5446e11": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 1.0,
+        "N": 2
+    },
+    "775b0bcf02": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 1.0,
+        "N": 4
+    },
+    "b4f53f59e9": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 1.0,
+        "N": 6
+    },
+    "abe24e0c1f": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.8,
+        "N": 2
+    },
+    "fe4ef71371": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.04,
+        "N": 38
+    },
+    "65cf6e49cb": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.05,
+        "N": 30
+    },
+    "cccc0b5c53": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.06,
+        "N": 26
+    },
+    "847e4ff36f": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.075,
+        "N": 20
+    },
+    "b75b44f2c2": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.1,
+        "N": 16
+    },
+    "59daf807cc": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.8,
+        "N": 4
+    },
+    "d8c865655c": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.8,
+        "N": 8
+    },
+    "ff10b13ba7": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.08,
+        "N": 12
+    },
+    "4c98a34888": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.08,
+        "N": 20
+    },
+    "1ef52a95ef": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.08,
+        "N": 38
+    },
+    "055d587cf0": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.08,
+        "N": 76
+    },
+    "f7b22f870e": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.09,
+        "N": 12
+    },
+    "6642b21871": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.09,
+        "N": 18
+    },
+    "89c4fc712b": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.08,
+        "N": 26
+    },
+    "0a42870bec": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.09,
+        "N": 22
+    },
+    "16176833db": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.09,
+        "N": 34
+    },
+    "0ebed834ed": {
+        "mass": 1,
+        "omega": 1,
+        "delta_t": 0.09,
+        "N": 68
+    }
+}

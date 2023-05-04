@@ -34,9 +34,15 @@ def run_sim(mode, delta_t, tau, n_tau, ntherm, ntraj, target_acc, mass, omega, T
     return r
 
 params = json.load(open("params.json", "r"))
+try:
+    lookup = json.load(open("lookup.json", "r"))
+except json.JSONDecodeError:
+    lookup = {}
+    
 for i,ens in enumerate(params):
     mode = "hmc"
     n = short_hash(ens)
+    lookup[n] = ens
     fname = f"data/{mode}/x-{n}.txt"
     print(n, *ens.items())
     if os.path.exists(fname):
@@ -45,11 +51,13 @@ for i,ens in enumerate(params):
     ntherm = 10_000
     target_acc = 0.5
     delta = 1
-    tau = 0.25
-    n_tau = 8
+    tau = 0.5
+    n_tau = 4
     N = ens["N"]
     mass = ens["mass"]
     omega = ens["omega"]
     delta_t = ens["delta_t"]    
     T = delta_t*N
     r = run_sim(mode, delta_t, tau, n_tau, ntherm, ntraj, target_acc, mass, omega, T, delta, ntraj//10, 100, fname)
+    
+json.dump(lookup, open("lookup.json", "w"), indent=4)
